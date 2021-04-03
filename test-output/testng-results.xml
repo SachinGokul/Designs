@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="970" started-at="2021-03-22T18:31:26Z" finished-at="2021-03-22T18:31:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="970" started-at="2021-03-22T18:31:26Z" finished-at="2021-03-22T18:31:27Z">
+      <class name="TestCase_No1">
+        <test-method status="PASS" signature="startup()[pri:0, instance:TestCase_No1@5e5792a0]" name="startup" is-config="true" duration-ms="7049" started-at="2021-03-23T00:01:19Z" finished-at="2021-03-23T00:01:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestCase_No1@5e5792a0]" name="Login" duration-ms="919" started-at="2021-03-23T00:01:26Z" finished-at="2021-03-23T00:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="TestCase2()[pri:0, instance:TestCase_No1@5e5792a0]" name="TestCase2" duration-ms="1" started-at="2021-03-23T00:01:27Z" finished-at="2021-03-23T00:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+        <test-method status="PASS" signature="TestCase3()[pri:0, instance:TestCase_No1@5e5792a0]" name="TestCase3" duration-ms="1" started-at="2021-03-23T00:01:27Z" finished-at="2021-03-23T00:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase3 -->
+        <test-method status="PASS" signature="TestCase4()[pri:0, instance:TestCase_No1@5e5792a0]" name="TestCase4" duration-ms="2" started-at="2021-03-23T00:01:27Z" finished-at="2021-03-23T00:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase4 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCase_No1@5e5792a0]" name="TearDown" is-config="true" duration-ms="872" started-at="2021-03-23T00:01:27Z" finished-at="2021-03-23T00:01:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestCase_No1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
