@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [SwagDemo]">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.SwagDemo.Listener.Listener"/>
+  </listeners>
   <test name="Test(failed)">
     <classes>
       <class name="com.SwagDemo.Test.TestCase_No1">
         <methods>
           <include name="TestCase3"/>
           <include name="TestCase4"/>
+          <include name="TearDown"/>
           <include name="startup"/>
           <include name="TestCase2"/>
           <include name="methodName"/>
@@ -15,4 +19,4 @@
       </class> <!-- com.SwagDemo.Test.TestCase_No1 -->
     </classes>
   </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [SwagDemo] -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,10 @@
+2021-05-04 21:49:32 INFO  ConfigReader:19 - File as been loaded
+2021-05-04 21:49:37 INFO  BaseTest:44 - ChromeDriver is launched
+2021-05-04 21:49:37 INFO  BaseTest:46 - driver instance is set to the Threadlocal
+2021-05-04 21:49:39 INFO  BaseTest:50 - Successfully launched the Browers
+2021-05-04 21:49:39 INFO  BaseTest:59 - SuitName is: ---:>SwagDemo
+2021-05-04 21:49:40 INFO  TestCase_No1:16 - The TestCase1 succeed
+2021-05-04 21:49:40 INFO  TestCase_No1:23 - The TestCase2 succeed
+2021-05-04 21:49:40 INFO  TestCase_No1:28 - The TestCase3 succeed
+2021-05-04 21:49:40 INFO  TestCase_No1:33 - The TestCase4 succeed
+2021-05-04 21:49:40 INFO  BaseTest:72 - Closing the browser

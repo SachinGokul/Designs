@@ -1,3 +1,4 @@
+package com.SwagDemo.Test;
 import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
 
@@ -8,11 +9,11 @@ public class TestCase_No1 extends BaseTest{
 	Logger log = Logger.getLogger(TestCase_No1.class);
 	
 	@Test
-	public void Login()
+	public void TestCase1()
 	{
 		LoginActionsPage loginActionsPage = new LoginActionsPage();
 		loginActionsPage.LoginActivites();
-		
+		log.info("The TestCase1 succeed");
 	}
 	
 	

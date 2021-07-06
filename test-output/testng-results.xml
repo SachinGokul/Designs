@@ -2,36 +2,87 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="970" started-at="2021-03-22T18:31:26Z" finished-at="2021-03-22T18:31:27Z">
+  <suite name="SwagDemo" duration-ms="1340" started-at="2021-05-04T16:19:39Z" finished-at="2021-05-04T16:19:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="970" started-at="2021-03-22T18:31:26Z" finished-at="2021-03-22T18:31:27Z">
-      <class name="TestCase_No1">
-        <test-method status="PASS" signature="startup()[pri:0, instance:TestCase_No1@5e5792a0]" name="startup" is-config="true" duration-ms="7049" started-at="2021-03-23T00:01:19Z" finished-at="2021-03-23T00:01:26Z">
+    <test name="Test" duration-ms="1340" started-at="2021-05-04T16:19:39Z" finished-at="2021-05-04T16:19:40Z">
+      <class name="com.SwagDemo.Test.TestCase_No1">
+        <test-method status="PASS" signature="startup(org.testng.ITestContext)[pri:0, instance:com.SwagDemo.Test.TestCase_No1@53b32d7]" name="startup" is-config="true" duration-ms="7349" started-at="2021-05-04T21:49:31Z" finished-at="2021-05-04T21:49:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a1a14a4]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startup -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:TestCase_No1@5e5792a0]" name="Login" duration-ms="919" started-at="2021-03-23T00:01:26Z" finished-at="2021-03-23T00:01:27Z">
+        <test-method status="PASS" signature="TestCase1()[pri:0, instance:com.SwagDemo.Test.TestCase_No1@53b32d7]" name="TestCase1" duration-ms="1031" started-at="2021-05-04T21:49:39Z" finished-at="2021-05-04T21:49:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="PASS" signature="TestCase2()[pri:0, instance:TestCase_No1@5e5792a0]" name="TestCase2" duration-ms="1" started-at="2021-03-23T00:01:27Z" finished-at="2021-03-23T00:01:27Z">
+        </test-method> <!-- TestCase1 -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.SwagDemo.Test.TestCase_No1@53b32d7]" name="methodName" is-config="true" duration-ms="0" started-at="2021-05-04T21:49:39Z" finished-at="2021-05-04T21:49:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagDemo.Test.TestCase_No1.TestCase1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="TestCase2()[pri:0, instance:com.SwagDemo.Test.TestCase_No1@53b32d7]" name="TestCase2" duration-ms="1" started-at="2021-05-04T21:49:40Z" finished-at="2021-05-04T21:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase2 -->
-        <test-method status="PASS" signature="TestCase3()[pri:0, instance:TestCase_No1@5e5792a0]" name="TestCase3" duration-ms="1" started-at="2021-03-23T00:01:27Z" finished-at="2021-03-23T00:01:27Z">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.SwagDemo.Test.TestCase_No1@53b32d7]" name="methodName" is-config="true" duration-ms="0" started-at="2021-05-04T21:49:40Z" finished-at="2021-05-04T21:49:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagDemo.Test.TestCase_No1.TestCase2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.SwagDemo.Test.TestCase_No1@53b32d7]" name="methodName" is-config="true" duration-ms="1" started-at="2021-05-04T21:49:40Z" finished-at="2021-05-04T21:49:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagDemo.Test.TestCase_No1.TestCase3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="TestCase3()[pri:0, instance:com.SwagDemo.Test.TestCase_No1@53b32d7]" name="TestCase3" duration-ms="3" started-at="2021-05-04T21:49:40Z" finished-at="2021-05-04T21:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase3 -->
-        <test-method status="PASS" signature="TestCase4()[pri:0, instance:TestCase_No1@5e5792a0]" name="TestCase4" duration-ms="2" started-at="2021-03-23T00:01:27Z" finished-at="2021-03-23T00:01:27Z">
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.SwagDemo.Test.TestCase_No1@53b32d7]" name="methodName" is-config="true" duration-ms="1" started-at="2021-05-04T21:49:40Z" finished-at="2021-05-04T21:49:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SwagDemo.Test.TestCase_No1.TestCase4()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="TestCase4()[pri:0, instance:com.SwagDemo.Test.TestCase_No1@53b32d7]" name="TestCase4" duration-ms="1" started-at="2021-05-04T21:49:40Z" finished-at="2021-05-04T21:49:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase4 -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:TestCase_No1@5e5792a0]" name="TearDown" is-config="true" duration-ms="872" started-at="2021-03-23T00:01:27Z" finished-at="2021-03-23T00:01:27Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.SwagDemo.Test.TestCase_No1@53b32d7]" name="TearDown" is-config="true" duration-ms="712" started-at="2021-05-04T21:49:40Z" finished-at="2021-05-04T21:49:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- TestCase_No1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.SwagDemo.Test.TestCase_No1 -->
+    </test> <!-- Test -->
+  </suite> <!-- SwagDemo -->
 </testng-results>
